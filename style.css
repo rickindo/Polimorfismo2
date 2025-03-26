@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #FFFFF0;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    border-color: ghostwhite;
+
+}
+
+#informacoesVeiculo {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 10px 10px 10px;
+}
+
+div{
+    text-align: center;
+}
+img{
+    text-align: center;
+    width: 150px;
+}
+
+#btnLigar{
+    background-color: green;
+    border-color: rgb(28, 88, 0);
+}
+
+#btnDesligar{
+  background-color: red;
+  border-color: #410000;
+}

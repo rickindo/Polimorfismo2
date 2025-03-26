@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Corrida da Herança: Garagem Inteligente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Garagem Inteligente</h1>
+
+    <div>
+        <button id="btnMeuCarro">Meu Carro</button>
+        <img src="https://media.toyota.com.br/72b7b6db-04f9-4cbf-b236-dfd621350a7f.png" >    
+        <button id="btnMeuCarroEsportivo">Meu Carro Esportivo</button>
+        <img src="https://cdn.motor1.com/images/mgl/p17kr/s1/4x3/2020-tesla-roadster.webp">
+        <button id="btnMeuCaminhao">Meu Caminhão</button>
+        <img src="https://www.truckpad.com.br/wp-content/uploads/2020/06/actros_2546___divulgacao_mercedes_benz___para_automotor-8833328.jpg" >
+    </div>
+
+    <div>
+        <button id="btnLigar">Ligar</button>
+        <button id="btnDesligar">Desligar</button>
+        <button id="btnAcelerar">Acelerar</button>
+        <button id="btnBuzinar">Buzinar</button>
+        <button id="btnAtivarTurbo">Ativar Turbo (Carro Esportivo)</button>
+        <button id="btnCarregar">Carregar (Caminhão)</button>
+    </div>
+
+    <div id="informacoesVeiculo">
+    </div>
+
+    <audio id="somLigar" src="som_ligando.mp3" preload="auto"></audio>
+    <audio id="somDesligar" src="som_desligar.mp3" preload="auto"></audio>
+    <audio id="somBuzina" src="som_buzina.mp3" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
